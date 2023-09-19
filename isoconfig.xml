@@ -62,8 +62,11 @@
             Attributes:
                 file    - Specifies the license file to inject into the ISO image.
         -->
-        <license file="LICENSEE.DAT"/>
         
+        <!--
+        <license file="LICENSEE.DAT"/>
+        -->
+
         <!-- <directory_tree>
                 Specifies and contains the directory structure for the data track.
             

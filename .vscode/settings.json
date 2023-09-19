@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "gfx.h": "c",
+        "memory.h": "c",
+        "mem.h": "c",
+        "libcd.h": "c",
+        "stddef.h": "c",
+        "libgpu.h": "c",
+        "bitset": "c",
+        "libetc.h": "c",
+        "stdint.h": "c",
+        "stdint-gcc.h": "c",
+        "input.h": "c",
+        "audio.h": "c",
+        "stdbool.h": "c",
+        "solo_noble.h": "c",
+        "cstdint": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

@@ -1,0 +1,27 @@
+Music: Rise_of_spirit.mp3
+Author: Alexandr Zhelanov
+Copyright/Attribution Notice: Alexandr Zhelanov, https://soundcloud.com/alexandr-zhelanov
+License: CC-BY 3.0
+Original Link: https://opengameart.org/content/rise-of-spirit
+
+converted to wav using:
+ffmpeg -i Rise_of_spirit.mp3 -acodec pcm_s16le -ac 2 -ar 44100 rise_of_spirit.wav
+
+Music: Soliloquy.mp3
+Author: Matthew Pablo
+Website: http://www.matthewpablo.com
+License: CC-BY 3.0
+Original Link: https://opengameart.org/content/soliloquy
+
+converted to wav using:
+ffmpeg -i Soliloquy.mp3 -acodec pcm_s16le -ac 2 -ar 44100 soliloquy.wav
+
+
+Music: Lively Meadow (Victory Fanfare and Song) / Lively_Meadow_Victory.wav
+Author: Matthew Pablo
+Website: http://www.matthewpablo.com
+License: CC-BY 3.0
+Original Link: https://opengameart.org/content/lively-meadow-victory-fanfare-and-song
+
+converted to wav using:
+ffmpeg -i Lively_Meadow_Victory.wav -acodec pcm_s16le -ac 2 -ar 44100 lively_meadow_victory_psx.wav

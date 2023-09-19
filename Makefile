@@ -1,8 +1,15 @@
 
-TARGET = test_gpu_001
+TARGET = ps1_solo_noble
 TYPE = ps-exe
 
-SRCS = third_party/nugget/common/crt0/crt0.s main.c
+SRCS = third_party/nugget/common/crt0/crt0.s \
+main.c \
+solo_noble.c \
+gfx.c \
+audio.c \
+input.c \
+mem.c \
+resource.c \
 
 CPPFLAGS += -Ithird_party/psyq-iwyu/include
 LDFLAGS += -Lthird_party/psyq/lib
@@ -32,3 +39,5 @@ LDFLAGS += -ltap
 LDFLAGS += -Wl,--end-group
 
 include third_party/nugget/common.mk
+
+

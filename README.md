@@ -12,11 +12,11 @@ git clone --recurse-submodules https://github.com/danx2016/ps1_solo_noble.git
 ```
 <b>note:</b> psyq-iwyu and nugget folders inside third_party directory are git submodules (independent projects referenced in another locations), so you need to use '--recurse-submodules' flag to include them 
 * Open the folder in vscode, then 'Ctrl + Shift + P -> PSX.Dev: Show panel > WELCOME > Restore Psy-Q'. This will restore the Psy-Q SDK files inside 'third_party/psyq' folder
-* To build ps-exe, just type inside project directory:
+* To build ps-exe, in the terminal, just type inside project directory:
 ```
 make
 ```
-* Now, to generate the CD BIN/CUE:
+* Finally, to generate the CD BIN/CUE:
 ```
 mkpsxiso.exe -y isoconfig.xml  
 ```

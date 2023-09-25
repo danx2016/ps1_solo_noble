@@ -90,12 +90,8 @@ static void load_all_assets()
     audio_add_sound(SOUND_ID_START, sound_start);
     audio_add_sound(SOUND_ID_ERROR, sound_error);
 
-    // once all images and sounds have been transferred to VRAM and SPU RAM, 
+    // once all sounds have been transferred to SPU RAM, 
     // they can be freed from the main RAM
-    mem_free(tileset_marble);
-    mem_free(tileset_stones);
-    mem_free(title);
-    mem_free(font);
     mem_free(sound_drop);
     mem_free(sound_move);
     mem_free(sound_select);
